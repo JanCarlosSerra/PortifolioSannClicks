@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family:'sann' ;
+    src: url('RetroSignature.otf') format('opentype');
+    font-style: normal;
+}
+h1 {
+    font-family: 'sann', Geneva, Tahoma, sans-serif;
+    font-size: 200px;
+    color: rgb(93, 176, 201);                 
+}
+            
+a.botao1{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-left:400px;
+    
+}
+
+a.botao1:hover{
+    border-bottom: 4px solid black;
+    color: rgb(93, 176, 201); 
+    font-size:22px;    
+}
+
+a.botao2{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-left:20px;
+       
+}
+
+a.botao2:hover{
+    border-bottom: 4px solid black;
+    color: rgb(15, 223, 223);
+    font-size: 22px;     
+}
+
+a.botao3{
+    text-decoration: none;
+    font-size: 20px;
+    color: black; 
+    margin-left: 20px;   
+}
+
+a.botao3:hover{
+    border-bottom: 4px solid black;
+    color: rgb(15, 223, 223); 
+    font-size: 22px;   
+}
+
+a{
+    margin-left: 540px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;  
+}
+
+a:hover{
+    border-bottom: 4px solid black;
+    color: rgb(15, 223, 223); 
+    font-size: 18px;    
+}
+
+
+/* ul { 
+    padding: 0;
+    /*text-align: center;
+    
+}
+
+
+li{
+    text-align: center;
+    
+} */
+
+
+
+
+
+        

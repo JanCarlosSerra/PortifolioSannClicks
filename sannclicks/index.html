@@ -8,38 +8,17 @@
 </head>
 <body>
     <head>
-        <style>
-            @font-face {
-                font-family:'sann' ;
-                src: url('RetroSignature.otf') format('opentype');
-                font-style: italic;
-            }
-            h1 {
-                font-family: 'sann', Geneva, Tahoma, sans-serif;
-                font-size: 200px;
-                       
-            }
-            
-            a {
-                font-size: 20px;
-            }
-
-            ul { padding: 0;}
-
-            li{display: inline;}
-
-            </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <header>
-        <h1>SannClicks</h1>
+        <h1 style="text-align: center;">SannClicks</h1>
         <nav>
-             
-                <a href="front/minhahistoria.html">Minha Hitória</a>
-                <a href="front/picos.html">Picos</a>
-                <a href="front/contato.html">Contato</a>
-            
+            <a class="botao1"href="front/minhahistoria.html">Minha Hitória</a>
+            <a class="botao2"href="front/picos.html">Fotos</a>        
+            <a class="botao3"href="front/contato.html">Contato</a>           
         </nav>
     </header>
+
     <section id="conteudo"></section>
     <script>
         document.querySelectorAll('a').forEach(link => {
