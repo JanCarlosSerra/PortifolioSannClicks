@@ -5,10 +5,11 @@
     font-style: normal;
     
 }
-h1 {
+
+.fonte {
     font-family: 'sann', Geneva, Tahoma, sans-serif;
     font-size: 200px;
-    color: rgb(93, 176, 201);  
+    color: black;  
     background-image: url('img01.jpeg');
     padding: 0px;
     margin: 50px;
@@ -19,6 +20,7 @@ h1 {
      background-size: cover;
      font-family:'Courier New', Courier, monospace;
      margin-inline: 600px;
+     background-color: rgb(86, 206, 206);
      
  }
  
@@ -26,7 +28,7 @@ h1 {
      margin: 0px;
      padding: 0px;
      list-style: none;
-     color: white;
+     color: black;
      
      
  }
@@ -56,11 +58,12 @@ h1 {
      display: none;
  }
  ul li:hover ul li{
-    display: block;
-    
+    display: block;  
  }
 
-
+p {
+    margin-top: 200px;
+}
 
 
 

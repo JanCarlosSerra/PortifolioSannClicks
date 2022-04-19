@@ -11,12 +11,13 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <header>
-        <h1 style="text-align: center;">SannClicks</h1>  
+         
+        <p class="fonte">SannClicks</p>
     </header>
     <body>
         <ul>
             <li><a class="botao1"href="front/minhahistoria.html">Minha Hitória</a></li>
-                <li><a class="botao2"href="front/picos.html">Fotos</a>
+                <li><a href="front/sannclicks.html">Fotos</a>
                     <ul>
                     <li><a href="front/pf.html">P.F</a></li>
                     <li><a href="front/ponte.html">Ponte</a></li>
@@ -32,10 +33,10 @@
     </body>
     
 
-    <section id="conteudo"></section>
+    <section id="botao1"></section>
     <script>
         document.querySelectorAll('a').forEach(link => {
-            const conteudo = document.getElementById('conteudo')
+            const conteudo = document.getElementById('botao1')
 
             link.onclick = function(e) {
                 e.preventDefault()
