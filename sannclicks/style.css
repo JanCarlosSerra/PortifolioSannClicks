@@ -37,9 +37,9 @@
  ul li{
      float:left;
      width: 230px;
-     height: 40px;
+     height: 42px;
      opacity: .9;
-     line-height:25px;
+     line-height:28px;
      text-align:center;
      font-size: 25px;
  }
@@ -51,8 +51,9 @@
  }
 
  ul li a:hover{
-     background-color: rgb(25, 156, 156);
+     background-color: black;
      border-bottom: 2px solid black;
+     color: white;
  }
 
  ul li ul li{
