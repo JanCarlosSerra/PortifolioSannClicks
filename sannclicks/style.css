@@ -6,14 +6,12 @@
     font-style: normal;    
 }
 
-div{
-}
+
 .main {  
     font-family: 'sann', Geneva, Tahoma, sans-serif;
     font-size: 200px;
     color:rgb(59, 119, 231); 
     display: flex;
-    align-items: center;
     justify-content: center;
     margin:0px;
     padding: 0px;
@@ -31,8 +29,8 @@ body{
 }
 
 ul{
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
     list-style: none;
     color: black;
         
@@ -51,8 +49,7 @@ ul li{
 ul li a{
     text-decoration: none;
     display: block;
-    color:rgb(27, 26, 26); 
-       
+    color:rgb(27, 26, 26);
 }
 
 ul li a:hover{
