@@ -1,5 +1,5 @@
 
-
+/*
 @font-face {
     font-family:'sann' ;
     src: url('RetroSignature.otf') format('opentype');
@@ -17,23 +17,61 @@
     padding: 0px;
     margin: 0px; 
    
+} */
+.cabecalho{
+    background:white;
+    border-bottom: solid 5px #199ee0;
+    height: 100px;
+    box-sizing: content-box;
+}
+.logo{
+    display: inline-block;
+    height: 100px;
+    padding: 0px;
+}
+.logo img {
+    height:100%;
+}
+
+.menu-toggle{
+    float: right;
+    color: black;
+    background-color: #555;
+    border:solid 1px #777;
+    border-radius: 5px;
+    height:40px;
+    padding:10px 20px;
+    margin:20px 15px;
+
+}
+.menu{
+    display:inline-block
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;;
 }
 
 
+
+
+
+*{
+    box-sizing: border-box;
+}
 body{
     background-size: cover;
     font-family:'Courier New', Courier, monospace;
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     background-color: rgb(43, 183, 238);
 }
 
+/*
 ul{
     margin: 0px;
     padding: 0px;
     list-style: none;
-    color: black;
-        
+    color: black;     
 }
 
 ul li{
@@ -44,6 +82,7 @@ ul li{
     line-height:28px;
     text-align:center;
     font-size: 30px;
+
 }
 
 ul li a{
@@ -64,6 +103,7 @@ ul li ul li{
 ul li:hover ul li{
     display: block;  
 }
+*/
 
 
 
