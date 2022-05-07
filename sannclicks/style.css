@@ -1,109 +1,92 @@
 
-/*
-@font-face {
-    font-family:'sann' ;
-    src: url('RetroSignature.otf') format('opentype');
-    font-style: normal;    
-}
-
-
-.main {  
-    font-family: 'sann', Geneva, Tahoma, sans-serif;
-    font-size: 200px;
-    color:rgb(59, 119, 231); 
-    display: flex;
-    justify-content: center;
-    margin:0px;
-    padding: 0px;
-    margin: 0px; 
-   
-} */
 .cabecalho{
     background:white;
-    border-bottom: solid 5px #199ee0;
-    height: 100px;
+    border-bottom: solid 5px #1092d3;
+    height: 90px;
     box-sizing: content-box;
 }
+
 .logo{
     display: inline-block;
-    height: 100px;
+    height: 90px;
     padding: 0px;
 }
+
 .logo img {
     height:100%;
 }
+.logo img :hover{
+   background:white;
+}
 
-.menu-toggle{
+.menu-toggle {
     float: right;
-    color: black;
-    background-color: #555;
-    border:solid 1px #777;
+    color:#eee;
+    background-color:rgb(138, 136, 136);
+    border: solid 1px #777;
     border-radius: 5px;
-    height:40px;
-    padding:10px 20px;
-    margin:20px 15px;
-
+    height: 40px;
+    padding: 10px 20px;
+    margin: 14px 15px;
 }
+
 .menu{
-    display:inline-block
+    display:inline-block;
     vertical-align: top;
-    height: 80px;
-    padding: 25px;;
+    height: 90px;
+    padding: 25px;
 }
 
 
+.menu ul {
+    margin: 0;
+    padding: 0;
+    
+}
 
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.7em;
+    padding: 25px;
+}
+
+.menu a:hover,
+.menu a.selected {
+    background-color: rgb(138, 136, 136);
+    color:white;
+    border-bottom: 3px solid black;
+}
 
 
 *{
     box-sizing: border-box;
 }
+
 body{
     background-size: cover;
     font-family:'Courier New', Courier, monospace;
     padding: 0;
     margin: 0;
-    background-color: rgb(43, 183, 238);
+    background-color: rgb(224, 222, 222);
+}
+@media(min-width: 841px) {
+    .menu-toggle {
+        display: none;
+    }
 }
 
-/*
-ul{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-    color: black;     
+@media(max-width:842px) {
+    .menu {
+        display: none;
+    }
 }
 
-ul li{
-    float:left;
-    width: 230px;
-    height: 42px;
-    opacity: .9;
-    line-height:28px;
-    text-align:center;
-    font-size: 30px;
 
-}
-
-ul li a{
-    text-decoration: none;
-    display: block;
-    color:rgb(27, 26, 26);
-}
-
-ul li a:hover{
-    background-color: black;
-    border-bottom: 2px solid black;
-    color: white;    
-}
-
-ul li ul li{
-    display: none;   
-}
-ul li:hover ul li{
-    display: block;  
-}
-*/
 
 
 
