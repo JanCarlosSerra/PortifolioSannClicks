@@ -5,36 +5,36 @@
          padding: 0px;
          box-sizing: border-box;
      }
-     .fts{
-         gap: 20px;
-         width:100%;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
-         margin: 40px auto;
-     }
+
      .fotos{
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         flex-direction: wrap;
+         display: grid;
+         grid-template-columns: repeat(4,1fr);
+         grid-auto-rows: 334px;
+         gap: 10px;
      }
-     .fotos .fts{
+
+     .fts{
          position: relative;
-         width: 200px;
-         height: 200px;
-         margin: 5px;
-         display: block;
-     }
-     .fotos .fts img {
-         position: absolute;
-         top: 0px;
-         left: 0px;
+        }
+        
+     .fotos, 
+     .fts{
          width: 100%;
          height: 100%;
          object-fit: cover;
-     } 
+         background-color: rgb(63, 62, 62);
+     }
+
+     @media(max-width:525px){
+         .fotos{
+            grid-template-columns: repeat(1,1fr);
+         grid-auto-rows: 334px;
+         }
+     }
+
+     
+    
+     
 
  
  </style>
@@ -43,35 +43,16 @@
  
  
  <div class="fotos">
- <div class="fts"> <img src="../../sannclicks/fotos/20220112055107__MG_0467.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/20220112061433__MG_0525.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/20220114053903__MG_0680.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/20220114054225__MG_0694.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/20220114054715__MG_0710.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/_DSC0001.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/_DSC0006.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/_DSC0016.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/_DSC0017.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/_DSC0023.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/_DSC0024.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/_DSC0032.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/_DSC0117.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/_DSC0221.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0001.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0027.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0076.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0082.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0083.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0114.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0124.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0135.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0153.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0217.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0351.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/DSC_0557.jpg" alt=""></div>
- <div class="fts"> <img src="../../sannclicks/fotos/IMG_20200610_183908_907.jpg" alt=""></div>
+ <div class="fts"> <img src="../../sannclicks/fotos/imagem1.jpeg" alt=""></div>
+ <div class="fts"> <img src="../../sannclicks/fotos/imagem2.jpeg" alt=""></div>
+ <div class="fts"> <img src="../../sannclicks/fotos/imagem3.jpeg" alt=""></div>
+ <div class="fts"> <img src="../../sannclicks/fotos/imagem4.jpeg" alt=""></div>
+ <div class="fts"> <img src="../../sannclicks/fotos/imagem5.jpeg" alt=""></div>
+ <div class="fts"> <img src="../../sannclicks/fotos/imagem6.jpeg" alt=""></div>
+ <div class="fts"> <img src="../../sannclicks/fotos/imagem7.jpeg" alt=""></div>
+ <div class="fts"> <img src="../../sannclicks/fotos/imagem8.jpeg" alt=""></div>
+ <div class="fts"> <img src="../../sannclicks/fotos/imagem9.jpeg" alt=""></div>
 
- </div>
  
  
  

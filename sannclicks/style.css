@@ -7,11 +7,12 @@
 
 .cabecalho{
     background:white;
-    background: linear-gradient(to right, rgb(51, 49, 49), rgb(34, 32, 121));  
+    background: linear-gradient(to right, rgb(73, 72, 72), rgb(92, 122, 219));  
     height: 200px;
     box-sizing: content-box;
     color: white;
     padding: 2rem;
+    border-bottom: 3px white solid;
 }
 
 .logo{
@@ -58,32 +59,31 @@
     padding: 25px;
 }
 
+nav{
+    background-color:white;
+}
+
 .menu a:hover,
 .menu a.selected {
     background-color: rgb(138, 136, 136);
     color:white;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(63, 62, 62);
 }
 
 
 .home {
     background-size: cover;
     font-family:'Courier New', Courier, monospace;
-    padding: 0;
-    margin: 0;
-    background-color: rgb(224, 222, 222);
+    padding: 0px;
+    margin: 0px;
+    
 }
-@media(min-width: 841px) {
+@media(min-width: 525px) {
     .menu-toggle {
         display: none;
     }
 }
 
-@media(max-width:842px) {
-    .menu {
-        display: none;
-    }
-}
 
 
 
