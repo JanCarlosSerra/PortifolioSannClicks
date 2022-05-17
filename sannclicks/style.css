@@ -1,9 +1,8 @@
-
-
-
-
-
-
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 .cabecalho{
     background:white;
@@ -76,9 +75,8 @@ nav{
     font-family:'Courier New', Courier, monospace;
     padding: 0px;
     margin: 0px;
-    
 }
-@media(min-width: 525px) {
+@media(min-width: 500px) {
     .menu-toggle {
         display: none;
     }
