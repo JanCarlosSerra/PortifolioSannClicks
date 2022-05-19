@@ -74,63 +74,6 @@ nav{
 
 
 
-/* estilo da minha historia*/
-* {
-    margin:0px;
-    padding: 0px; 
- }
-
- html, body {
-     min-height: 100vh;
- }
-
- h1 {
-     background-color: white;
-     color: black;
-     text-align: center;
- }
-
-
-
-
- footer{
-     background-color: black;
-     color: white;
-     text-align: center;
-     padding: 10px;
-     width: 105%;
- }
-
-
-
-/* estilo das fotos*/
-  .fotos{
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
-      grid-auto-rows: 334px;
-      padding: 5px;
-      gap: 5px;
-  }
-  
-  .fts{
-      position: relative;
-  }
-  
-  .fotos, 
-  .fts{
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
-  
-  @media(max-width:525px){
-      .fotos{
-          grid-template-columns: repeat(1,1fr);
-          grid-auto-rows: 334px;
-      }
-  }
-  
-
 
 
         
