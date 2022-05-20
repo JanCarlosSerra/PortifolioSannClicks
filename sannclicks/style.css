@@ -89,6 +89,7 @@ nav{
 .slide{
     width: 50%;
     position: relative;
+    transition: 2s;
 }
 .slide img{
     width: 1000px;
