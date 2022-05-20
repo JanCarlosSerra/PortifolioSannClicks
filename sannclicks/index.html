@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SannClicks</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="home">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SannClicks</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="home">
         <header class="cabecalho">
             <div class="logo">
                 <img src="../sannclicks/logo/sanclicks 01-1 (1).png" alt="logo">
@@ -19,11 +19,52 @@
                     <li><a href="../sannclicks/front/minhahistoria.html">Minha Hitória</a></li>
                     <li><a href="../sannclicks/front/fotos.html">Fotos</a></li>
                 </ul> 
-            </nav>
-    </body>
-    <section id="conteudo"></section>
+            </nav>    
+    <section id="conteudo">
+        <div class="slider" >
+
+            <div class="slides">
+                <!-- radio buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <!--slide imagens-->
+                <div class="slide first">
+                    <img src="../sannclicks/imagens leste slides/imagemsld1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../sannclicks/imagens leste slides/imagemsld2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../sannclicks/imagens leste slides/imagemsld3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="../sannclicks/imagens leste slides/imagemsld4.jpg" alt="">
+                </div>
+                <!-- navegação auto -->
+                <div class="navegacao-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+
+                </div>
+            </div>
+
+            <div class="manual-navegacao">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+
+        </div>
+    </section>
+
     <script>
-            document.querySelectorAll('a').forEach(link => {
+            /*document.querySelectorAll('a').forEach(link => {
             const conteudo = document.getElementById('conteudo')
 
             link.onclick = function(e) {
@@ -32,8 +73,10 @@
                         .then(resp => resp.text())
                         .then(sanncliks => conteudo.innerHTML = sanncliks)
             }
-        })
+        })*/
     </script>
+    <script src="script.js"></script>
+    </body>
 </html>
 
 
